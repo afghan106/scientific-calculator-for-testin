@@ -1,7 +1,5 @@
  // JavaScript code goes here
- function appendToDisplay(value) {
-    document.getElementById("display").value += value;
-  }
+ function appendToDisplay(value) { document.getElementById("display").value += value; }
 
   function clearDisplay() {
     document.getElementById("display").value = "";
